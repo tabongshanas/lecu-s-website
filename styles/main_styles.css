@@ -1275,6 +1275,9 @@ label #close {
     line-height: 38px;
     margin: 10px 0 40px 0;
 }
+.footer-intro-text b {
+    color: #fbd341;
+}
 
 
 .social-icons {
