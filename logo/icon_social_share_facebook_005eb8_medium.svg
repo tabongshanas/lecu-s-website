@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1450" data-name="Rectangle 1450" width="36" height="36" fill="#005eb8"/>
+    </clipPath>
+  </defs>
+  <g id="facebook_icon_white_36" clip-path="url(#clip-path)">
+    <path id="Path_4204" data-name="Path 4204" d="M36,18A18,18,0,1,0,15.188,35.781V23.2h-4.57V18h4.57V14.034c0-4.511,2.687-7,6.8-7a27.68,27.68,0,0,1,4.029.352v4.43h-2.27a2.6,2.6,0,0,0-2.933,2.811V18H25.8L25,23.2H20.813V35.781A18,18,0,0,0,36,18Z" fill="#005eb8"/>
+  </g>
+</svg>

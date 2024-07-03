@@ -4,6 +4,20 @@
     --nav_bar_paddings: 40px 20px;
 }
 
+
+.landing-page-container {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(-45deg,#D83F87 , #2A1B3D , #44318D , #E98074 , #A4B3B6);
+    background-size: 400% 400%;
+    animation: move 10s ease-in-out infinite;
+    /* background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+
+    /* animation: move_backgroung-color 3s ease-in-out infinite; */
+}
+
+
 .friend-ways-container {
     display: flex;
     flex-direction: column;
@@ -160,5 +174,13 @@
     }
     .seven-ways-header.margin {
         text-align: center;
+    }
+}
+
+
+
+@keyframes text-reveal-name {
+    100% {
+        color: white;
     }
 }
