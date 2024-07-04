@@ -8,16 +8,29 @@
 
 /* #182628 , #65CCB8 , #57BA98 , #3B945E , #F2F2F2 */
 
-.landing-page-container {
+.landing-page-container.back {
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(-45deg,#D83F87 , #2A1B3D , #44318D , #E98074 , #A4B3B6);
-    background-size: 400% 400%;
+    /* background: linear-gradient(-45deg,#D83F87 , #2A1B3D , #44318D , #E98074 , #A4B3B6); */
+    background-image: url('/images/audio-icon.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 400% 400%; */
     animation: move 10s ease-in-out infinite;
     /* background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
 
     /* animation: move_backgroung-color 3s ease-in-out infinite; */
+}
+.landing-page-container.back::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.411);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
