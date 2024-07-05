@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get In Touch With Lecu</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Get In Touch With Lecu</title>
 
-    <link rel="stylesheet" href="/icons/fontawesome/css/font-awesome.css">
-    <link rel="stylesheet" href="/styles/main_styles.css">
-    <link rel="stylesheet" href="/styles/contact.css">
+        <link rel="stylesheet" href="/styles/main_styles.css">
+        <link rel="stylesheet" href="/styles/other-form.css">
 
-    <link 
-        rel="icon"
-        title="image/png"
-        href="/logo/favicon.png"
-    />
-</head>
+        <link 
+            rel="icon"
+            title="image/png"
+            href="/logo/favicon.png"
+        />
+    </head>
     <body>
         <section>
-            <div class="landing-page-container back">
+            <!-- <div class="landing-page-container back">
                 <div class="nav-bar">
 
                     <nav>
@@ -60,89 +59,55 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </div> -->
 
+        </section> 
 
 
         <section>
-            <div class="container">
+            <!-- Responsive Contact Page with Dark Mode and Form Validation (vanilla JS).
 
-                <h1 class="brand"><span>get in touch</span></h1>
-            
-                <div class="wrapper">
-            
-                    <!-- COMPANY INFORMATION -->
-                    <div class="company-info">
-                        <h3>Lecu Nama</h3>
-            
-                        <ul>
-                            <li><i class="fa fa-road"></i> 44 Main Street</li>
-                            <li><i class="fa fa-phone"></i> +237 6 56 37 01</li>
-                            <li><i class="fa fa-envelope"></i> lecu@gmail.com</li>
-                        </ul>
-    
-    
-                        <div class="contact-image">
-                            <img src="/images/scret-img.jpg" alt="">
-                        </div>
-                    </div>
-                    <!-- End .company-info -->
-            
-                    <!-- CONTACT FORM -->
-                    <div class="contact">
-                        <h3>E-mail Us</h3>
-            
-                        <form id="contact-form">
-            
-                            <p>
-                                <label>First Name</label>
-                                <input type="text" name="name" id="name" required>
-                            </p>
-            
-                            <p>
-                                <label>Last Name</label>
-                                <input type="text" name="company" id="company">
-                            </p>
-            
-                            <p>
-                                <label>E-mail Address</label>
-                                <input type="email" name="email" id="email" required>
-                            </p>
-            
-                            <p>
-                                <label>Phone Number</label>
-                                <input type="text" name="phone" id="phone">
-                            </p>
-            
-                            <p class="full">
-                                <label>Message</label>
-                                <textarea name="message" rows="5" id="message"></textarea>
-                            </p>
-            
-                            <p class="full">
-                                <button type="submit">Submit</button>
-                            </p>
-            
-                        </form>
-                        <!-- End #contact-form -->
-                    </div>
-                    <!-- End .contact -->
-            
+            *Designed & built for desktop and tablets with viewport width >= 720px and in landscape orientation.  -->
+
+            <div class="contact-container">
+                <div class="left-col">
+                <img class="logo" src="https://www.indonesia.travel/content/dam/indtravelrevamp/en/logo.png"/>
                 </div>
-                <!-- End .wrapper -->
+                <div class="right-col">
+                <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+                <div class="description">Dark Mode</div>
             </div>
-            <!-- End .container -->
-
-
-            <div class="third-btn">
-                <a href="/other-form.html">another form</a>
+            
+                <h1>Contact us</h1>
+                <p>Planning to visit Indonesia soon? Get insider tips on where to go, things to do and find best deals for your next adventure.</p>
+                
+                <form id="contact-form" method="post">
+                    <label for="name">Full name</label>
+                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                    <label for="email">Phone Number</label>
+                <input type="email" id="email" name="email" placeholder="Your Phone Number" required>
+                    <label for="message">Message</label>
+                <textarea rows="6" placeholder="Your Message" id="message" name="message" required></textarea>
+                <!--<a href="javascript:void(0)">--><button type="submit" id="submit" name="submit">Send</button><!--</a>-->
+                <!--<a href="javascript:void(0)">--><button> <a href="/contact.html" class="back">back</a> </button>  </button><!--</a>-->
+                
+            </form>
+            <div id="error"></div>
+            <div id="success-msg"></div>
+                </div>
             </div>
+            
+            <!-- Image credit: Oliver Sjöström https://www.pexels.com/photo/body-of-water-near-green-mountain-931018/  -->
+        
         </section>
 
 
 
-        <section>
+        <!-- <section>
             <div class="footer">
                 <div class="subscribe-container">
                     <div class="subscribe-text">
@@ -258,6 +223,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
+
+        <script src="/script.js"></script>
+            
     </body>
 </html>

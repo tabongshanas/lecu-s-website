@@ -10,7 +10,7 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(-45deg,#182628 , #65CCB8 , #57BA98 , #3B945E , #F2F2F2);
+    background: linear-gradient(-45deg,#141619 , #2C2E3A , #050A44 , #0A21C0 , #B3B4BD);
     background-size: 400% 400%;
     animation: move 10s ease-in-out infinite;
     /* background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
