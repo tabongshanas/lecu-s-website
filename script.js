@@ -44,15 +44,15 @@ const validate = (e) => {
     return false;
   } 
   
-  if (!(email.value.includes('.') && (email.value.includes('@')))) {
-    errorElement.innerHTML = 'Please enter a valid email address.';
-    return false;
-  } 
+  // if (!(email.value.includes('.') && (email.value.includes('@')))) {
+  //   errorElement.innerHTML = 'Please enter a valid phone number.';
+  //   return false;
+  // } 
 
-  if (!emailIsValid(email.value)) {
-    errorElement.innerHTML = 'Please enter a valid email address.';
-    return false;
-  }
+  // if (!emailIsValid(email.value)) {
+  //   errorElement.innerHTML = 'Please enter a valid email address.';
+  //   return false;
+  // }
 
   if (message.value.length < 15) {
     errorElement.innerHTML = 'Please write a longer message.';
