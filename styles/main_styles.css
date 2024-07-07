@@ -978,7 +978,7 @@ label #close {
     line-height: 35px;
 }
 .frind-detail-content:hover .friend-detail-top::before {
-    background-color: rgba(0, 0, 0, 0.781);
+    background-color: rgba(0, 0, 0, 0.671);
 }
 .frind-detail-content:hover .friend-detail-bottom {
     transform: translateY(0);
@@ -1003,7 +1003,7 @@ label #close {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.911);
+    background-color: rgba(0, 0, 0, 0.808);
     width: 100%;
     height: 100%;
     z-index: -1;
