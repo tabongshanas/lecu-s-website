@@ -181,6 +181,7 @@
 .person-name span {
     color: var(--primary_color);
     text-transform: capitalize;
+    white-space: nowrap;
 }
 
 .social-medial-container {
@@ -247,7 +248,7 @@
     .person-word-container::after {
         content: '';
         position: absolute;
-        top: 90px;
+        top: 100px;
         left: 0;
         width: 100%;
         height: 2px;
@@ -261,5 +262,13 @@
     .friendship-detail-container {
         width: 100%;
         padding: 0 10px 0 20px;
+    }
+}
+@media (max-width: 315px) {
+    .person-word-container {
+        flex-direction: column;
+    }
+    .person-word-container::after {
+        top: 170px;
     }
 }

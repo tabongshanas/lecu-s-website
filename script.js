@@ -35,7 +35,8 @@ const contactForm = document.getElementById('contact-form');
 const errorElement = document.getElementById('error');
 const successMsg = document.getElementById('success-msg');
 const submitBtn = document.getElementById('submit');
-  
+
+
 const validate = (e) => {
   e.preventDefault();
  
