@@ -59,7 +59,6 @@ window.addEventListener('keydown' , (e) => {
   e.preventDefault();
   if (e.key === 'Escape') {
     rateContainer.classList.add('rate--remove');
-    alert('Your rate has not been save!');
   }
 
   if (e.key === 'r' && e.ctrlKey) {

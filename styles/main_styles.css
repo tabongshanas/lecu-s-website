@@ -1229,7 +1229,7 @@ label #close {
     justify-content: center;
     align-items: center;
     z-index: 1000;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
 }
@@ -1375,14 +1375,14 @@ label #close {
 }
 
 .rate-layer {
-    background-color: rgba(0, 0, 0, 0.863);
+    background-color: rgba(0, 0, 0, 0.932);
     width: 100vw;
     height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 100;
-    filter: blur(100px);
+    filter: blur(25px);
 } 
 
 .rate--remove {
